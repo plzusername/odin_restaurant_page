@@ -1,3 +1,5 @@
+const content=document.querySelector('.content')
+
 function elemCreator( element, parentElement = document.body , elementContent = ' '  , elementAttributes = {}){
 
     let createdElement = document.createElement( element )
@@ -20,4 +22,4 @@ function elemCreator( element, parentElement = document.body , elementContent = 
   
 }
 
-export {elemCreator}
+export {elemCreator, content}
