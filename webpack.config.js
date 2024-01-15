@@ -17,7 +17,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template:'./src/index.html',
             filename:'index.html',
-            title:'Mini Uncle Shawarma!'
+            title:'Mini Uncle Shawarma!',
         })
     ],
     module:{
