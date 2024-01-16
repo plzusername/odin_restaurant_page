@@ -11,7 +11,7 @@ function contactPage(){
     let street = ''
     let phoneNumber = ''
 
-    const contactSection = elemCreator( 'div', content , `${mainQuestion} ${subQuestions} ${quote} ${country} ${city} ${area} ${street} ${phoneNumber}` , {'class':['home-section']} )
+    const contactSection = elemCreator( 'div', content , `${mainQuestion} ${subQuestions} ${quote} ${country} ${city} ${area} ${street} ${phoneNumber}` , {'class':['contact-section']} )
 
     mainQuestion = elemCreator( 'h1', contactSection , `Contact us, Will you?` , {'class':['main-question']} )
     subQuestions = elemCreator( 'p', contactSection , `How's the service, staff, and shawerma, Be sure to let us know!` , {'class':['sub-question']} )
