@@ -13,14 +13,14 @@ function contactPage(){
 
     const contactSection = elemCreator( 'div', content , `${mainQuestion} ${subQuestions} ${quote} ${country} ${city} ${area} ${street} ${phoneNumber}` , {'class':['home-section']} )
 
-    mainQuestion = elemCreator( 'h1', contactSection , `MINI UNCLE SHAWERMA` , {'class':['main-question']} )
-    subQuestions = elemCreator( 'p', contactSection , `SHAWERMA ON ANOTHER LEVEL` , {'class':['sub-question']} )
-    quote = elemCreator( 'p', contactSection , `Has Shawerma ever had a lasting impact on you, well then you're in the right place! Mini Uncle Shawerma (MUS) has had a profound impact on the happiness of kids since 1901, so what are you wating for!` , {'class':['contact-quote']} )
-    country = elemCreator( 'span', contactSection , `Delivery Service` , {'class':['restaurant-country']} )
-    city = elemCreator( 'span', contactSection , `Delivery Service` , {'class':['restaurant-city']} )
-    area = elemCreator( 'span', contactSection , `Delivery Service` , {'class':['restaurant-area']} )
-    street = elemCreator( 'span', contactSection , `Delivery Service` , {'class':['restaurant-street']} )
-    phoneNumber = elemCreator( 'span', contactSection , `Delivery Service` , {'class':['restaurant-phone-number']} )
+    mainQuestion = elemCreator( 'h1', contactSection , `Contact us, Will you?` , {'class':['main-question']} )
+    subQuestions = elemCreator( 'p', contactSection , `How's the service, staff, and shawerma, Be sure to let us know!` , {'class':['sub-question']} )
+    quote = elemCreator( 'p', contactSection , `"Man has alqays been a curious one, one that has never feared to explore, try new things, and learn from failure, will you take a step forward and let us do so as well?" Naser Alghazawee` , {'class':['contact-quote']} )
+    country = elemCreator( 'span', contactSection , `Turkey` , {'class':['restaurant-country']} )
+    city = elemCreator( 'span', contactSection , `Istanbul` , {'class':['restaurant-city']} )
+    area = elemCreator( 'span', contactSection , `Sultanahmet` , {'class':['restaurant-area']} )
+    street = elemCreator( 'span', contactSection , `street 70` , {'class':['restaurant-street']} )
+    phoneNumber = elemCreator( 'span', contactSection , `011 2322 0322-93` , {'class':['restaurant-phone-number']} )
 
 }
 
