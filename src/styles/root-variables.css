@@ -1,4 +1,13 @@
+@import url('google-fonts.css');
+
 :root{
+
+    /*Global variables*/
+    --special-font:'Dancing Script';
+    --header-font:'Bebas Neue';
+    --default-font:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /*Variables for home section*/
     --header-red:rgb(239, 55, 8);
     --main-red:rgb(255, 111, 0);
     --main-color:rgb(248, 248, 248);
@@ -16,4 +25,16 @@
     --home-header-font-size-h2:45px;
     --delivery-button-background:rgba(0, 0, 0, 0);
     --delivery-button-background-hover:rgba(255,111,0,1);
+
+    /*Variables for menu section*/
+    --menu-item-blur:10px;
+    --box-side-length:300px;
+    --box-padding:20px;
+    --shawerma-item-border-thickness:5px;
+    --menu-item-letter-spacing:2px;
+    --menu-item-header-font-size:40px;
+    --menu-section-width:700px;
+    --menu-column-gap:30px;
+    --menu-row-gap:20px;
+    --menu-item-radius:35px;
 }
