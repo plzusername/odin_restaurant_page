@@ -1,2 +1,46 @@
 @import url('root-variables.css');
-@import url('google-fonts.css');
+
+.shawerma-box{
+    font-family: var(--default-font);
+    border: solid var(--shawerma-item-border-thickness)  var(--main-red);
+    border-radius: var(--menu-item-radius);
+    backdrop-filter: blur(var(--menu-item-blur));
+    height:var(--box-side-length);
+    width:var(--box-side-length);
+    padding:var(--box-padding); 
+    transition: var(--button-transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shawerma-box:hover{
+    scale: 1.1;
+}
+
+.shawerma-box h1{
+    font-family: var(--header-font);
+    color: var(--main-red);
+    letter-spacing: var(--menu-item-letter-spacing);
+    font-size: var(--menu-item-header-font-size);
+}
+
+.shawerma-box p{
+    text-align: center;
+}
+
+.shawerma-box span{
+    align-self: flex-end;
+}
+
+.menu-section{
+    margin: 0 auto;
+    width: var(--menu-section-width);
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap:var(--menu-row-gap);
+    column-gap:var(--menu-column-gap);
+}
