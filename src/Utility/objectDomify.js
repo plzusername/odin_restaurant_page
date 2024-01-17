@@ -7,7 +7,7 @@ function convertMenuItemToDom( menuItem ){
     let ingredients = ''
     let shawermaPrice = ''
 
-    let shawermaItemContainer = elemCreator( 'div', menuSection() , `${shawermaName} ${ingredients} ${shawermaPrice} ` , {'class':['shawerm-box']} )
+    let shawermaItemContainer = elemCreator( 'div', menuSection() , `${shawermaName} ${ingredients} ${shawermaPrice} ` , {'class':['shawerma-box']} )
 
     shawermaName = elemCreator( 'h1', shawermaItemContainer , menuItem.shawermaName )
     ingredients = elemCreator( 'p', shawermaItemContainer , menuItem.ingredients )
