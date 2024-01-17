@@ -7,13 +7,7 @@ function elemCreator( element, parentElement = document.body , elementContent = 
         let createdElement = document.createElement( element )
 
         for (const [key, value] of Object.entries(elementAttributes)) {
-            for (let i = 0 ; i < value.length ; i++) {
-      
-                const element = value[i];
-      
-                createdElement.setAttribute(key, element)
-                
-            }
+            createdElement.setAttribute(key, value)                
         }
       
         createdElement.innerHTML=elementContent
