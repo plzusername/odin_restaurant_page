@@ -1,0 +1,19 @@
+:root{
+    --header-red:rgb(239, 55, 8);
+    --main-red:rgb(255, 111, 0);
+    --main-color:rgb(248, 248, 248);
+    --sub-title-color:rgb(100, 98, 98);
+    --home-section-width:600px;
+    --home-section-left-padding:200px;
+    --delivery-button-border-thickness:5px;
+    --delivery-button-radius:7px;
+    --delivery-button-sides-padding:40px;
+    --delivery-button-top-bottom-padding:12px;
+    --delivery-button-font-size:25px;
+    --button-transition: 200ms ease-in-out;
+    --home-section-header-letter-spacing:2px;
+    --home-header-font-size-h1:70px;
+    --home-header-font-size-h2:45px;
+    --delivery-button-background:rgba(0, 0, 0, 0);
+    --delivery-button-background-hover:rgba(255,111,0,1);
+}
