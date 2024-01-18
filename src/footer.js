@@ -9,7 +9,7 @@ function footer(){
 
     const footerSection = elemCreator( 'div', content , `` , {'class':['footer-section']} )
 
-    linkContainer = elemCreator( 'a', footerSection , `${githubIcon} ${githubUserName}` , {'class':['link-container']} )
+    linkContainer = elemCreator( 'a', footerSection , `${githubIcon} ${githubUserName}` , {'class':['link-container'], 'href':['https://github.com/plzusername']} )
     
 
     githubIcon = elemCreator( 'i', linkContainer , `` , {'class':['github-Icon fa-github fa-brands']} )
