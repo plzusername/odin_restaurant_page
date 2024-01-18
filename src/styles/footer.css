@@ -4,8 +4,54 @@
     display: flex;
     justify-content: center;
     justify-self: flex-end;
+    grid-area: 10/1/11/1;
+    position: relative;
+    width: 100%;
+    padding-top: var(--link-section-top-padding);
 }
 
 .link-container{
+    text-decoration: none;
+    color: var(--sub-title-color);
+    opacity: var(--default-link-opacity);
+    letter-spacing: var(--home-section-header-letter-spacing);
     display: flex;
+    gap:var(--link-container-gap);
+    font-size: var(--link-font-size);
+    transition: var(--button-transition);
+}
+
+.github-user-name{
+    font-family: var(--special-font);
+}
+
+.link-container:hover{
+    letter-spacing: calc(var(--home-section-header-letter-spacing) * 4);
+    opacity: 1;
+}
+
+.footer-section::before, .footer-section::after{
+    position: absolute;
+    content: '';
+    background-color: var(--main-red);
+    height: var(--github-link-hover-affect-height);
+    transition: var(--button-transition);
+    top: var(--github-animation-distance-from-top);
+    width: 0;
+}
+
+.footer-section::before{
+    left: var(--github-link-hover-affect-distance-from-secreen-edge);
+}
+
+.footer-section::after{
+    right: var(--github-link-hover-affect-distance-from-secreen-edge);
+}
+
+.footer-section:hover::before{
+    width: var(--github-link-hover-affect-width);
+}
+
+.footer-section:hover::after{
+    width: var(--github-link-hover-affect-width);
 }
