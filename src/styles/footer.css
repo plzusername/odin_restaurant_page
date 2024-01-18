@@ -3,6 +3,7 @@
 .footer-section{
     display: flex;
     justify-content: center;
+    justify-self: flex-end;
 }
 
 .link-container{
