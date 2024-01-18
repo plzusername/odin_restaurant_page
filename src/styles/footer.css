@@ -1,0 +1,10 @@
+@import url('root-variables.css');
+
+.footer-section{
+    display: flex;
+    justify-content: center;
+}
+
+.link-container{
+    display: flex;
+}
