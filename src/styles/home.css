@@ -11,6 +11,7 @@
     font-size: var(--home-header-font-size-h1);
     letter-spacing: var(--home-section-header-letter-spacing);
     margin-bottom: 0;
+    margin-top: var(--header-top-margin-h1);
 }
 
 .restaurant-sutitle{
@@ -22,6 +23,7 @@
 
 .restaurant-description{
     font-family: var(--default-font);
+    margin: var(--description-margin) 0;
 }
 
 .deleviry-button{
