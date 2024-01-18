@@ -1,0 +1,52 @@
+@import url('root-variables.css');
+
+@keyframes linkAnimation {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+nav{
+    display: flex;
+    font-family: var(--header-font);
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: var(--gap-between-links);
+}
+
+li{
+    text-align: center;
+    position: relative;
+    font-size: var(--link-font-size);
+    transition: var(--button-transition);
+    width:var(--link-width);
+    opacity: 0.7;
+}
+
+li::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: var(--main-red);
+}
+
+li:hover::before{
+    animation: linkAnimation 0.5s  ease-in-out forwards ;
+}
+
+li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
