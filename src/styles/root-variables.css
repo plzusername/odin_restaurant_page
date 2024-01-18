@@ -46,4 +46,9 @@
     --location-margin-top:10px;
     --quote-top-bottom-margin:75px;
 
+    /*Variables for Navigation section*/
+    --link-font-size:30px;
+    --gap-between-links:18px;
+    --link-width:100px;
+
 }
