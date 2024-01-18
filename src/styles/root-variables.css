@@ -57,4 +57,7 @@
     --animated-bar-duration:0.5s;
     --navbar-top-padding:20px;
 
+    /*Variables for Footer section*/
+    --link-font-size:35px;
+    --link-container-gap:10px;
 }
