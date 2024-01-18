@@ -12,7 +12,7 @@
     --main-red:rgb(255, 111, 0);
     --main-color:rgb(248, 248, 248);
     --sub-title-color:rgb(100, 98, 98);
-    --home-section-width:550px;
+    --home-section-width:950px;
     --home-section-left-padding:200px;
     --delivery-button-border-thickness:5px;
     --delivery-button-radius:7px;
@@ -25,6 +25,8 @@
     --home-header-font-size-h2:45px;
     --delivery-button-background:rgba(0, 0, 0, 0);
     --delivery-button-background-hover:rgba(255,111,0,1);
+    --description-margin:25px;
+    --header-top-margin-h1:80px;
 
     /*Variables for menu section*/
     --menu-item-blur:10px;
@@ -42,7 +44,7 @@
     --contact-header-font-size:50px;
     --distance-from-subquestion-question:-30px;
     --subquestion-font-size:30px;
-    --contact-section-width:400px;
+    --contact-section-width:800px;
     --location-margin-top:10px;
     --quote-top-bottom-margin:75px;
 
@@ -53,5 +55,6 @@
     --default-link-opacity:0.7;
     --animated-bar-height:5px;
     --animated-bar-duration:0.5s;
+    --navbar-top-padding:20px;
 
 }
