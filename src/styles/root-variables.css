@@ -60,4 +60,9 @@
     /*Variables for Footer section*/
     --link-font-size:35px;
     --link-container-gap:10px;
+    --github-link-hover-affect-height:1px;
+    --github-link-hover-affect-distance-from-secreen-edge:600px;
+    --github-link-hover-affect-width:250px;
+    --link-section-top-padding:25px;
+    --github-animation-distance-from-top:72%;
 }
