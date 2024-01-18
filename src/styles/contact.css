@@ -1,2 +1,29 @@
 @import url('root-variables.css');
 
+.contact-section{
+    padding: 0 var(--home-section-left-padding);
+    font-family: var(--default-font);
+    width: var(--contact-section-width);
+}
+
+h1{
+    font-family: var(--header-font);
+    color: var(--main-red);
+    font-size: var(--contact-header-font-size);
+    margin-bottom: 0;
+}
+
+.sub-question{
+    font-size:var(--subquestion-font-size);
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+.restaurant{
+    display: block;
+    margin-top: var(--location-margin-top);
+}
+
+.contact-quote{
+    margin: var(--quote-top-bottom-margin) 0;
+}
