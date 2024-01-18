@@ -12,8 +12,8 @@ function footer(){
     linkContainer = elemCreator( 'a', footerSection , `${githubIcon} ${githubUserName}` , {'class':['link-container']} )
     
 
-    githubIcon = elemCreator( 'i', footerSection , `` , {'class':['github-Icon fa-github fa-brands']} )
-    githubUserName = elemCreator( 'p', footerSection , `Mofris` , {'class':['github-user-name']} )
+    githubIcon = elemCreator( 'i', linkContainer , `` , {'class':['github-Icon fa-github fa-brands']} )
+    githubUserName = elemCreator( 'p', linkContainer , `Mofris` , {'class':['github-user-name']} )
 
     footerSection.appendChild(linkContainer)
 
