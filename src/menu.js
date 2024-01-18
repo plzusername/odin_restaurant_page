@@ -43,7 +43,7 @@ function menuPage(){
 
         , new menuItem('Kebab shawerma','Arabic Hamam bread, 3lb Meat Kebab , Extreme amounts of ketchup, Grated cucumbers, Chopped onions and tomatoes, and of course the special ingrediant: Efficiency!','3.00 JD').callConvertMenutoDom()
 
-        , new menuItem('Shish tawook shawerma','Arabic Hamam bread, 3lb Shish tawook (chicken) , Moderate Servings of Mayonaise, Grated cucumbers, Chopped onions and tomatoes, and of course the special ingrediant: Resilience!','3.50 JD').callConvertMenutoDom()
+        , new menuItem('Shish tawook','Arabic Hamam bread, 3lb Shish tawook (chicken) , Grated cucumbers, Chopped onions and tomatoes, and of course the special ingrediant: Resilience!','3.50 JD').callConvertMenutoDom()
 
     ] , {'class':['menu-section']} )
 
