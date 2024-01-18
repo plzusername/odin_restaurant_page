@@ -15,7 +15,6 @@ body, .content{
 }
 
 .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
 }
