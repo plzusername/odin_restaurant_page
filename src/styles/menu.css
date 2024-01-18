@@ -11,7 +11,7 @@
     transition: var(--button-transition);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -20,6 +20,7 @@
 }
 
 .shawerma-box h1{
+    text-align: center;
     font-family: var(--header-font);
     color: var(--main-red);
     letter-spacing: var(--menu-item-letter-spacing);
@@ -32,6 +33,8 @@
 
 .shawerma-box span{
     align-self: flex-end;
+
+    margin-top: auto;
 }
 
 .menu-section{
