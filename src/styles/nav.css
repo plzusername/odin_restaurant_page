@@ -29,7 +29,7 @@ li{
     font-size: var(--link-font-size);
     transition: var(--button-transition);
     width:var(--link-width);
-    opacity: 0.7;
+    opacity: var(--default-link-opacity);
 }
 
 li::before{
@@ -38,12 +38,12 @@ li::before{
     bottom: 0;
     left: 0;
     width: 0;
-    height: 5px;
+    height: var(--animated-bar-height);
     background-color: var(--main-red);
 }
 
 li:hover::before{
-    animation: linkAnimation 0.5s  ease-in-out forwards ;
+    animation: linkAnimation var(--animated-bar-duration)  ease-in-out forwards ;
 }
 
 li:hover{

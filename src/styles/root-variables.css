@@ -50,5 +50,8 @@
     --link-font-size:30px;
     --gap-between-links:18px;
     --link-width:100px;
+    --default-link-opacity:0.7;
+    --animated-bar-height:5px;
+    --animated-bar-duration:0.5s;
 
 }
