@@ -15,7 +15,7 @@ function contactPage(){
 
     mainQuestion = elemCreator( 'h1', contactSection , `Contact us, Will you?` , {'class':['main-question']} )
     subQuestions = elemCreator( 'p', contactSection , `How's the service, staff, and shawerma?` , {'class':['sub-question']} )
-    quote = elemCreator( 'p', contactSection , `"Man has always been a curious one, one that has never feared to explore, try new things, and learn from failure, will you take a step forward and let us do so as well?" Naser Alghazawee` , {'class':['contact-quote']} )
+    quote = elemCreator( 'p', contactSection , `"Man has always been a curious one, one that has never feared to explore, try new things, and learn from failure, will you take a step forward and let us do so as well?" Mohammed Faris` , {'class':['contact-quote']} )
     country = elemCreator( 'span', contactSection , `Turkey` , {'class':['restaurant country']} )
     city = elemCreator( 'span', contactSection , `Istanbul` , {'class':['restaurant city']} )
     area = elemCreator( 'span', contactSection , `Sultanahmet` , {'class':['restaurant area']} )
