@@ -16,9 +16,10 @@ body, .content{
 }
 
 body{
-    background-image: url('../Images/360_F_579087473_4i3mJRcTqV7IU2r0Cwyz9wM4LiLxbTia.jpg');
+    background-image: url('../Images/shaurma-with-veegtables-chicken-wrapped-with-lavash-bread.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .content{
