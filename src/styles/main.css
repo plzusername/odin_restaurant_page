@@ -12,6 +12,13 @@
 
 body, .content{
     height: 100vh;
+    color: white;
+}
+
+body{
+    background-image: url('../Images/360_F_579087473_4i3mJRcTqV7IU2r0Cwyz9wM4LiLxbTia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content{
