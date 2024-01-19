@@ -1,5 +1,5 @@
-import { elemCreator, content } from './Utility/elementMaker.js'
-import { convertMenuItemToDom } from './Utility/objectDomify.js'
+import { elemCreator, content } from '../Utility/elementMaker.js'
+import { convertMenuItemToDom } from '../Utility/objectDomify.js'
 
 class menuItem{
 

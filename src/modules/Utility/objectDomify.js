@@ -1,5 +1,5 @@
 import { elemCreator } from './elementMaker.js'
-import { menuSection } from '../menu.js'
+import { menuSection } from '../pages/menu.js'
 
 function convertMenuItemToDom( menuItem ){
 

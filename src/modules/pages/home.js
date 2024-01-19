@@ -1,4 +1,4 @@
-import {elemCreator, content} from './Utility/elementMaker.js'
+import {elemCreator, content} from '../Utility/elementMaker.js'
 
 function homePage(){
     
