@@ -15,6 +15,18 @@ body, .content{
     color: white;
 }
 
+.content{
+    height: 100%;
+}
+
+html{
+    background-image: url('../Images/shaurma-with-veegtables-chicken-wrapped-with-lavash-bread.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
 body{
     background-image: url('../Images/shaurma-with-veegtables-chicken-wrapped-with-lavash-bread.jpg');
     background-repeat: no-repeat;
