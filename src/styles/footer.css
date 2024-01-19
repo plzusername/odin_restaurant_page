@@ -12,7 +12,7 @@
 
 .link-container{
     text-decoration: none;
-    color: var(--sub-title-color);
+    color: white;
     opacity: var(--default-link-opacity);
     letter-spacing: var(--home-section-header-letter-spacing);
     display: flex;
@@ -30,7 +30,7 @@
     opacity: 1;
 }
 
-.footer-section::before, .footer-section::after{
+.link-container::before, .link-container::after{
     position: absolute;
     content: '';
     background-color: var(--main-red);
@@ -40,18 +40,17 @@
     width: 0;
 }
 
-.footer-section::before{
+.link-container::before{
     left: var(--github-link-hover-affect-distance-from-secreen-edge);
 }
 
-.footer-section::after{
+.link-container::after{
     right: var(--github-link-hover-affect-distance-from-secreen-edge);
 }
-
-.footer-section:hover::before{
+.link-container:hover::before{
     width: var(--github-link-hover-affect-width);
 }
 
-.footer-section:hover::after{
+.link-container:hover::after{
     width: var(--github-link-hover-affect-width);
 }
