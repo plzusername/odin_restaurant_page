@@ -12,7 +12,6 @@
 nav{
     display: flex;
     font-family: var(--header-font);
-    justify-content: flex-end;
     padding: var(--navbar-top-padding);
 }
 
@@ -23,6 +22,7 @@ ul{
     padding: 0;
     gap: var(--gap-between-links);
     margin: var(--navbar-top-padding) 0;
+    margin-left: auto;
 }
 
 li{
