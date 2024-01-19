@@ -20,7 +20,7 @@ function contactPage(){
     city = elemCreator( 'span', contactSection , `Istanbul` , {'class':['restaurant city']} )
     area = elemCreator( 'span', contactSection , `Sultanahmet` , {'class':['restaurant area']} )
     street = elemCreator( 'span', contactSection , `street 70` , {'class':['restaurant treet']} )
-    phoneNumber = elemCreator( 'span', contactSection , `011 2322 0322-93` , {'class':['restaurant-phone number']} )
+    phoneNumber = elemCreator( 'span', contactSection , `011 2322 0322-93` , {'class':['restaurant phone-number']} )
 
 }
 

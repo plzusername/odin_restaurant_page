@@ -1,4 +1,4 @@
-import { elemCreator, content } from './elementMaker.js'
+import { elemCreator } from './elementMaker.js'
 import { menuSection } from '../menu.js'
 
 function convertMenuItemToDom( menuItem ){
@@ -12,8 +12,6 @@ function convertMenuItemToDom( menuItem ){
     shawermaName = elemCreator( 'h1', shawermaItemContainer , menuItem.shawermaName )
     ingredients = elemCreator( 'p', shawermaItemContainer , menuItem.ingredients )
     shawermaPrice = elemCreator( 'span', shawermaItemContainer , menuItem.price )
-
-
 }
 
 export {convertMenuItemToDom} 

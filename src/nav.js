@@ -1,7 +1,7 @@
 import {elemCreator, content} from './Utility/elementMaker.js'
-import {homePage} from './home.js'
-import {menuPage} from './menu.js'
-import {contactPage} from './contact.js'
+import {homePage as home} from './home.js'
+import {menuPage as menu} from './menu.js'
+import {contactPage as contact} from './contact.js'
 import {footer} from './footer.js'
 
 
